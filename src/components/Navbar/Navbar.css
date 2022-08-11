@@ -32,6 +32,8 @@ form {
 }
 .keywords-list {
     display: flex;
+    position: relative;
+    top: 15px;
 }
 .keywords-list li {
     color: white;
@@ -62,7 +64,8 @@ form {
 .login {
     display: flex;
     margin-top: 15px;
-    /* margin-left: -50px; */
+    position: relative;
+    top: 15px;
     transform: translateX(-40px);
 }
 .login p {
@@ -122,6 +125,10 @@ form {
     font-size: 18px;
     font-weight: bold;
 }
+.middle-nav p {
+    position: relative;
+    top: 15px;
+}
 .middle-nav .p-bottom {
     opacity: 35%;
 }
@@ -135,7 +142,7 @@ form {
 }
 .pick-up-search img {
     position: relative;
-    top: 10px;
+    top: 0px;
     left: 15px;
     width: 32px;
     height: 32px;
@@ -145,11 +152,14 @@ form {
 /* ------------------------------------bottom-nav----------------------------------------- */
 .bottom-nav {
     display: flex;
-    justify-content: space-evenly;
-    padding: 0.5rem 10rem;
+    padding: 0.5rem 14.5rem;
     font-size: 18px;
     font-weight: bold;
 
+}
+
+.bottom-nav .select {
+    margin: 20px;
 }
 .select {
     display: flex;
@@ -157,10 +167,12 @@ form {
 
 .select p {
     margin-right: 5px;
+    position: relative;
+    top: 10px;
 }
 .select img  {
     position: relative;
-    top: 22px;
+    top: 15px;
     width: 15px;
     height: 15px;
 }

@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    padding: 3rem 15rem;
+    justify-content: space-evenly;
+    /* margin: 20px 0px; */
+}
+.container div{
+    margin: 20px;
+}
+
+.container img {
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+}

@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className='top-nav'>
                 <div className='header'>
                     <div className='logo'>
-                        <img src='	https://www.bigc.co.th/_nuxt/img/Logo-BigC-2021.1900273.png' />
+                        <img alt='logo' src='https://www.bigc.co.th/_nuxt/img/Logo-BigC-2021.1900273.png' />
                     </div>
                     <div className='form-keywords'>
                         <form className='form-search'>
@@ -42,7 +42,7 @@ const Navbar = () => {
                         <div className='badge'>
                             <span>0</span>
                         </div>
-                        <img src='	https://www.bigc.co.th/_nuxt/img/cart.9714e87.svg' />
+                        <img alt='badge' src='https://www.bigc.co.th/_nuxt/img/cart.9714e87.svg' />
                         <p>ยอดรวม</p>
                         <p>฿0.00</p>
                     </div>
@@ -51,7 +51,7 @@ const Navbar = () => {
             <div className='middle-nav'>
                 <p>ระบุสถานที่จัดส่ง หรือรับสินค้า</p>
                 <div className='pick-up-search'>
-                    <img src='https://www.bigc.co.th/_nuxt/img/map.7a93041.svg' />
+                    <img alt='location' src='https://www.bigc.co.th/_nuxt/img/map.7a93041.svg' />
                     <input type='search' placeholder='เลือกรับสินค้าที่สาขา หรือจัดส่งถึงบ้าน' />
                 </div>
                 <p className='p-bottom'>* สินค้าอาจมีการเปลี่ยนแปลงขึ้นอยู่กับสถานที่จัดส่ง</p>
@@ -59,30 +59,30 @@ const Navbar = () => {
             <div className='bottom-nav'>
                 <div className='select'>
                     <p>สินค้าทั้งหมด</p>
-                    <img src='	https://www.bigc.co.th/_nuxt/img/arrow-down.48c912f.svg' />
+                    <img alt='arrow' src='	https://www.bigc.co.th/_nuxt/img/arrow-down.48c912f.svg' />
                 </div>
                 <div className='select'>
                     <p>สินค้าสั่งซื้อประจำ</p>
                 </div>
                 <div className='select'>
                     <p>โปรโมชั่น</p>
-                    <img src='	https://www.bigc.co.th/_nuxt/img/arrow-down.48c912f.svg' />
+                    <img alt='arrow' src='	https://www.bigc.co.th/_nuxt/img/arrow-down.48c912f.svg' />
                 </div>
                 <div className='select'>
                     <p>สิทธิพิเศษ</p>
-                    <img src='	https://www.bigc.co.th/_nuxt/img/arrow-down.48c912f.svg' />
+                    <img alt='arrow' src='	https://www.bigc.co.th/_nuxt/img/arrow-down.48c912f.svg' />
                 </div>
                 <div className='select'>
                     <p>บริการ</p>
-                    <img src='	https://www.bigc.co.th/_nuxt/img/arrow-down.48c912f.svg' />
+                    <img alt='arrow' src='	https://www.bigc.co.th/_nuxt/img/arrow-down.48c912f.svg' />
                 </div>
                 <div className='select'>
                     <p>วิธีการสั่งซื้อ</p>
-                    <img src='	https://www.bigc.co.th/_nuxt/img/arrow-down.48c912f.svg' />
+                    <img alt='arrow' src='	https://www.bigc.co.th/_nuxt/img/arrow-down.48c912f.svg' />
                 </div>
                 <div className='select'>
                     <p>บล็อก</p>
-                    <img src='	https://www.bigc.co.th/_nuxt/img/arrow-down.48c912f.svg' />
+                    <img alt='arrow' src='	https://www.bigc.co.th/_nuxt/img/arrow-down.48c912f.svg' />
                 </div>
             </div>
 
