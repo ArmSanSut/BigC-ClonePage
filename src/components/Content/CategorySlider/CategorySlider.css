@@ -1,15 +1,29 @@
 .container {
     display: flex;
-    padding: 3rem 15rem;
-    justify-content: space-evenly;
-    /* margin: 20px 0px; */
 }
 .container div{
     margin: 20px;
 }
 
-.container img {
+.product-img {
     border-radius: 100%;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
+}
+.swiper {
+    width: 1570px;
+    padding: 1.5rem 15rem;
+    margin-top: 30px;
+}
+.item {
+    width: 80px;
+    margin: auto;
+}
+div.swiper-slide{
+    margin: 0px -35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
 }
