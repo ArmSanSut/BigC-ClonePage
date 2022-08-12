@@ -1,10 +1,11 @@
-import React, { Component } from "react";
+import React from 'react'
 import Slider from "react-slick";
-import './SuperDeals.css'
+import './FlasDeals.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Timer from './Timer';
 
-const SuperDeals = () => {
+const FlashDeals = () => {
     const settings = {
         dots: true,
         button: true,
@@ -16,11 +17,15 @@ const SuperDeals = () => {
         initialSlide: 0,
     };
     return (
-        <div style={{ width: '1570px', marginLeft: 'auto', marginRight: 'auto' }}>
+        <div style={{ width: '1570px', marginLeft: 'auto', marginRight: 'auto', marginTop:'50px' }}>
             <div className="header">
-                <h2>Super Deals ดีลเด็ด ราคาโดน</h2>
+                <div className="header-left">
+                    <img alt='flash-img' src='https://www.bigc.co.th/_nuxt/img/flash.1592a3a.svg' />
+                    <h2>Flash Deal</h2>
+                    <Timer />
+                </div>
                 <div className="header-right">
-                    <a href='https://www.bigc.co.th/dailydeal' className="link"><p className="text">ดูสินค้าทั้งหมด</p></a>
+                    <a href='https://www.bigc.co.th/dailydeal' className='link'><p className='text'>ดูสินค้าทั้งหมด</p></a>
                     <img alt="arrow" src="https://www.bigc.co.th/_nuxt/img/arrow-right.ea4c886.svg" />
                 </div>
             </div>
@@ -28,11 +33,11 @@ const SuperDeals = () => {
                 <div className="card-wrapper">
                     <div className="card">
                         <div className="card-img">
-                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8853038011652_4.jpg" />
+                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8854336038204_1.jpg" />
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
-                            <p>ดาต้า ปลั๊กไฟ 4 ช่อง 4 สวิตช์ สายไฟ 5 ม. รุ่น HM4496M5W สีขาว</p>
-                            <p>฿399.00 <span>/ชิ้น</span> </p>
+                            <p>คาชิวา เตาย่างบาร์บีคิว 1300 วัตต์ รุ่น KW308</p>
+                            <p>฿499.00<span>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -60,11 +65,11 @@ const SuperDeals = () => {
                 <div className="card-wrapper">
                     <div className="card">
                         <div className="card-img">
-                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/6/9/6948009410380.jpg" />
+                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/6/9/6921732868147.jpg" />
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
-                            <p>เบสิโค ถังปั่นและม็อบแบบผ้ายาว รุ่น M038A ขนาด10 ล. พร้อมผ้าไมโครไฟเบอร์ คละสี</p>
-                            <p>฿1,290.00<span>/ชิ้น</span> </p>
+                            <p>ทีซีแอล 4K UHD แอนดรอยด์ทีวี รุ่น 50J7000A ขนาด 50 นิ้ว</p>
+                            <p>฿11,990.00<span>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -92,11 +97,11 @@ const SuperDeals = () => {
                 <div className="card-wrapper">
                     <div className="card">
                         <div className="card-img">
-                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/6/9/6921732868154.jpg" />
+                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/6/9/6945878313897_1_1.jpg" />
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
-                            <p>ทีซีแอล 4K UHD แอนดรอยด์ทีวี รุ่น 55J7000A ขนาด 55 นิ้ว</p>
-                            <p> ฿17,990.00<span>/ชิ้น</span> </p>
+                            <p>โตชิบา เครื่องซักผ้า แบบ 2 ถัง รุ่น VH-H85MT ขนาด 7.5 กก.</p>
+                            <p> ฿3,790.00<span>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -124,11 +129,11 @@ const SuperDeals = () => {
                 <div className="card-wrapper">
                     <div className="card">
                         <div className="card-img">
-                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/6/9/6945878315686.jpg" />
+                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/6/9/6972848675341.jpg" />
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
-                            <p>โตชิบา เครื่องซักผ้า 2 ถัง รุ่น VH-H140WT ขนาด 13 กก.</p>
-                            <p>฿6,290.00<span>/ชิ้น</span> </p>
+                            <p>โตชิบา เครื่องซักผ้าฝาบน รุ่น AW-UK1100HT ขนาด 10 กก.</p>
+                            <p>฿7,990.00<span>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -156,11 +161,11 @@ const SuperDeals = () => {
                 <div className="card-wrapper">
                     <div className="card">
                         <div className="card-img">
-                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/0/8013054132582_5.jpg" />
+                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/7/8710103752608.jpg" />
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
-                            <p>เบสิโค ม้านั่งสนาม แบบมีพนักพิง รุ่น CF-MC-B008-WH สีขาว</p>
-                            <p>฿3,990.00<span>/ชิ้น</span> </p>
+                            <p>ฟิลิปส์ เครื่องหนีบผม รุ่น HP8321</p>
+                            <p>฿890.00<span>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -188,11 +193,11 @@ const SuperDeals = () => {
                 <div className="card-wrapper">
                     <div className="card">
                         <div className="card-img">
-                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8851079000925_3.jpg" />
+                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8859474200858.jpg" />
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
-                            <p>แชมเปี้ยน ถุงขยะ แบบหนาพิเศษ 30 x 40 นิ้ว สีดำ แพ็ค 12 ใบ</p>
-                            <p>฿79.00<span>/ชิ้น</span> </p>
+                            <p>อะโคนาติก แอลอีดี ดิจิตอลทีวี HD Ready รุ่น 32HD514AN ขนาด 32 นิ้ว สีดำ</p>
+                            <p>฿3,890.00<span>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -252,11 +257,11 @@ const SuperDeals = () => {
                 <div className="card-wrapper">
                     <div className="card">
                         <div className="card-img">
-                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8856976000023_2.jpg" />
+                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8851456107049.jpg" />
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
-                            <p>ดับเบิ้ล เอ กระดาษถ่ายเอกสาร A4 80 แกรม แพ็ค 5</p>
-                            <p>฿535.00<span>/ชิ้น</span> </p>
+                            <p>ชาร์ป กระติกน้ำร้อน รุ่น KP-B16S ขนาด 1.6 ลิตร คละแบบ</p>
+                            <p>฿779.00<span>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -284,11 +289,11 @@ const SuperDeals = () => {
                 <div className="card-wrapper">
                     <div className="card">
                         <div className="card-img">
-                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8851806007555.jpg" />
+                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8859426091480_2.jpg" />
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
-                            <p>พานาโซนิค ถ่านอัลคาไลน์ ขนาด AA แพ็ค 5+1 ก้อน</p>
-                            <p>฿125.00<span>/ชิ้น</span> </p>
+                            <p>ราวตากผ้า ทรงเอ คละสี ขนาด 41 x 88 x 130 ซม</p>
+                            <p>฿239.00<span>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -316,11 +321,11 @@ const SuperDeals = () => {
                 <div className="card-wrapper">
                     <div className="card">
                         <div className="card-img">
-                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8851456106554.jpg" />
+                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8850519328681.jpg" />
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
-                            <p>ชาร์ป พัดลมตั้งโต๊ะ คละสี รุ่น PJ-TA163 ขนาด 16 นิ้ว คละสี</p>
-                            <p>฿788.00<span>/ชิ้น</span> </p>
+                            <p>มิตซูบิชิ ตู้เย็น 2 ประตู รุ่น MR-FVB22S ขนาด 7.3 คิว คละสี</p>
+                            <p>฿6,990.00<span>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -350,4 +355,4 @@ const SuperDeals = () => {
     )
 }
 
-export default SuperDeals
+export default FlashDeals

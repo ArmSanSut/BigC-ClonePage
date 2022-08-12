@@ -1,0 +1,17 @@
+.timer-container {
+    display: flex;
+}
+.timer-container h2 {
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+}
+.timer-container h3 {
+    font-size: 50px;
+    font-weight: bold;
+}
