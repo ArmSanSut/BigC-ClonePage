@@ -3,6 +3,9 @@ import Slider from './TopSlider/Slider'
 import CategorySlider from './CategorySlider/CategorySlider'
 import SuperDeals from './SuperDeals/SuperDeals'
 import FlashDeals from './FlashDeals/FlashDeals'
+import PromotionMain from './Promotion/PromotionMain'
+
+
 const Content = () => {
   return (
     <div>
@@ -10,6 +13,7 @@ const Content = () => {
         <CategorySlider />
         <SuperDeals/>
         <FlashDeals />
+        <PromotionMain />
     </div>
   )
 }

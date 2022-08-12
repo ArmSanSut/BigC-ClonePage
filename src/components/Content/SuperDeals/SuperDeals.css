@@ -3,6 +3,13 @@
     flex-direction: column;
     position: relative;
 }
+.slick-prev:before, .slick-next:before {
+    font-size: 40px !important;
+    color: black !important;
+}
+.slick-list {
+    margin-left: 20px !important;
+}
 .header {
     width: 100%;
     display: flex;
@@ -21,6 +28,7 @@
 }
 .content {
     width: 1570px !important;
+    z-index: 1;
 }
 .card {
     display: flex;

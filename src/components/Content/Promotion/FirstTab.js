@@ -1,31 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import Slider from "react-slick";
-import './SuperDeals.css'
+import './Promotion.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
-const SuperDeals = () => {
-    function SampleNextArrow(props) {
-        const { className, style, onClick } = props;
-        return (
-          <div
-            className={className}
-            style={{ ...style, background: "white" }}
-            onClick={onClick}
-          />
-        );
-      }
-      
-      function SamplePrevArrow(props) {
-        const { className, style, onClick } = props;
-        return (
-          <div
-            className={className}
-            style={{ ...style, background: "white" }}
-            onClick={onClick}
-          />
-        );
-      }
+const FirstTab = () => {
     const settings = {
         dots: true,
         button: true,
@@ -35,15 +13,14 @@ const SuperDeals = () => {
         slidesToScroll: 3,
         // cssEase: "linear",
         initialSlide: 0,
-        nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />
     };
-    return (
-        <div style={{ width: '1570px', marginLeft: 'auto', marginRight: 'auto' }}>
-            <div className="header">
-                <h2>Super Deals ดีลเด็ด ราคาโดน</h2>
+  return (
+    <div style={{ width: '1570px', marginLeft: 'auto', marginRight: 'auto', marginTop:'50px' }}>
+            <div className="header-text">
                 <div className="header-right">
-                    <a href='https://www.bigc.co.th/dailydeal' className="link"><p className="text">ดูสินค้าทั้งหมด</p></a>
+                    <a href='https://www.bigc.co.th/shoponline/promotion/super-save' className='link'>
+                        <p className='text'>ดูสินค้าทั้งหมด</p>
+                    </a>
                     <img alt="arrow" src="https://www.bigc.co.th/_nuxt/img/arrow-right.ea4c886.svg" />
                 </div>
             </div>
@@ -51,11 +28,12 @@ const SuperDeals = () => {
                 <div className="card-wrapper">
                     <div className="card">
                         <div className="card-img">
-                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8853038011652_4.jpg" />
+                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8850423000086_1.jpg" />
+                            <img alt="logo" className="logo" src="https://static.bigc.co.th/media/amlabel/23222120191817161514131211109876543210icon-_80x80.png"/>
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
-                            <p>ดาต้า ปลั๊กไฟ 4 ช่อง 4 สวิตช์ สายไฟ 5 ม. รุ่น HM4496M5W สีขาว</p>
-                            <p>฿399.00 <span>/ชิ้น</span> </p>
+                            <p>เฮลซ์บลูบอย น้ำหวานเข้มข้น กลิ่นครีมโซดา 710 มิลลิลิตร</p>
+                            <p>฿51.00<span>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -83,11 +61,12 @@ const SuperDeals = () => {
                 <div className="card-wrapper">
                     <div className="card">
                         <div className="card-img">
-                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/6/9/6948009410380.jpg" />
+                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8850124041494_8.jpg" />
+                            <img alt="logo" className="logo" src="https://static.bigc.co.th/media/amlabel/23222120191817161514131211109876543210icon-_80x80.png"/>
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
-                            <p>เบสิโค ถังปั่นและม็อบแบบผ้ายาว รุ่น M038A ขนาด10 ล. พร้อมผ้าไมโครไฟเบอร์ คละสี</p>
-                            <p>฿1,290.00<span>/ชิ้น</span> </p>
+                            <p>ตราหมี โกลด์ ผลิตภัณฑ์นมสเตอริไลส์ไขมันต่ำผสมชาขาว 140 มล. แพ็ค 4</p>
+                            <p>฿54.00<span>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -115,11 +94,12 @@ const SuperDeals = () => {
                 <div className="card-wrapper">
                     <div className="card">
                         <div className="card-img">
-                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/6/9/6921732868154.jpg" />
+                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8850124041524_8.jpg" />
+                            <img alt="logo" className="logo" src="https://static.bigc.co.th/media/amlabel/23222120191817161514131211109876543210icon-_80x80.png"/>
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
-                            <p>ทีซีแอล 4K UHD แอนดรอยด์ทีวี รุ่น 55J7000A ขนาด 55 นิ้ว</p>
-                            <p> ฿17,990.00<span>/ชิ้น</span> </p>
+                            <p>ตราหมี โกลด์ ผลิตภัณฑ์นมสเตอริไลส์ไขมันต่ำผสมมอลต์สกัด 140 มล. แพ็ค 4</p>
+                            <p>฿54.00<span>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -147,11 +127,12 @@ const SuperDeals = () => {
                 <div className="card-wrapper">
                     <div className="card">
                         <div className="card-img">
-                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/6/9/6945878315686.jpg" />
+                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8850367100019_1_1.jpg" />
+                            <img alt="logo" className="logo" src="https://static.bigc.co.th/media/amlabel/23222120191817161514131211109876543210icon-_80x80.png"/>
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
-                            <p>โตชิบา เครื่องซักผ้า 2 ถัง รุ่น VH-H140WT ขนาด 13 กก.</p>
-                            <p>฿6,290.00<span>/ชิ้น</span> </p>
+                            <p>ชาวเกาะ กะทิสำเร็จรูป 250 มล.</p>
+                            <p>฿23.00<span>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -179,11 +160,12 @@ const SuperDeals = () => {
                 <div className="card-wrapper">
                     <div className="card">
                         <div className="card-img">
-                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/0/8013054132582_5.jpg" />
+                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8850267117629_3.jpg" />
+                            <img alt="logo" className="logo" src="https://static.bigc.co.th/media/amlabel/23222120191817161514131211109876543210icon-_80x80.png"/>
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
-                            <p>เบสิโค ม้านั่งสนาม แบบมีพนักพิง รุ่น CF-MC-B008-WH สีขาว</p>
-                            <p>฿3,990.00<span>/ชิ้น</span> </p>
+                            <p>แลคตาซอย นมถั่วเหลือง รสหวาน 125 มล. แพ็ค 6</p>
+                            <p>฿27.00<span>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -211,11 +193,12 @@ const SuperDeals = () => {
                 <div className="card-wrapper">
                     <div className="card">
                         <div className="card-img">
-                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8851079000925_3.jpg" />
+                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8858998581177_8.jpg" />
+                            <img alt="logo" className="logo" src="https://static.bigc.co.th/media/amlabel/23222120191817161514131211109876543210icon-_80x80.png"/>
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
-                            <p>แชมเปี้ยน ถุงขยะ แบบหนาพิเศษ 30 x 40 นิ้ว สีดำ แพ็ค 12 ใบ</p>
-                            <p>฿79.00<span>/ชิ้น</span> </p>
+                            <p>เป๊ปซี่ แม็กซ์ เครื่องดื่มอัดลม ไม่มีน้ำตาล 1.45 ล.</p>
+                            <p>฿26.00<span>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -243,11 +226,12 @@ const SuperDeals = () => {
                 <div className="card-wrapper">
                     <div className="card">
                         <div className="card-img">
-                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8851456105021_1.jpg" />
+                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8851959632673_8.jpg" />
+                            <img alt="logo" className="logo" src="https://static.bigc.co.th/media/amlabel/23222120191817161514131211109876543210icon-_80x80.png"/>
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
-                            <p>ชาร์ป หม้อหุงข้าวอุ่นทิพย์ รุ่น KS19E ขนาด 1.8 ล.</p>
-                            <p>฿849.00<span>/ชิ้น</span> </p>
+                            <p>ชเวปส์ น้ำอัดลมมะนาวโซดา 325 มล. แพ็ค 6</p>
+                            <p>฿80.00<span>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -275,11 +259,12 @@ const SuperDeals = () => {
                 <div className="card-wrapper">
                     <div className="card">
                         <div className="card-img">
-                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8856976000023_2.jpg" />
+                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8850999001456_2.jpg" />
+                            <img alt="logo" className="logo" src="https://static.bigc.co.th/media/amlabel/23222120191817161514131211109876543210icon-_80x80.png"/>
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
-                            <p>ดับเบิ้ล เอ กระดาษถ่ายเอกสาร A4 80 แกรม แพ็ค 5</p>
-                            <p>฿535.00<span>/ชิ้น</span> </p>
+                            <p>เพอร์ร่า น้ำแร่ธรรมชาติ 100% 600 มล. แพ็ค 12</p>
+                            <p>฿82.00<span>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -307,11 +292,12 @@ const SuperDeals = () => {
                 <div className="card-wrapper">
                     <div className="card">
                         <div className="card-img">
-                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8851806007555.jpg" />
+                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8852007934220_1.jpg" />
+                            <img alt="logo" className="logo" src="https://static.bigc.co.th/media/amlabel/23222120191817161514131211109876543210icon-_80x80.png"/>
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
-                            <p>พานาโซนิค ถ่านอัลคาไลน์ ขนาด AA แพ็ค 5+1 ก้อน</p>
-                            <p>฿125.00<span>/ชิ้น</span> </p>
+                            <p>สก๊อต ซุปไก่สกัด สูตร 100% 42 มล. แพ็ค 6</p>
+                            <p>฿185.00<span>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -339,11 +325,12 @@ const SuperDeals = () => {
                 <div className="card-wrapper">
                     <div className="card">
                         <div className="card-img">
-                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8851456106554.jpg" />
+                            <img alt="product-img" src="https://static.bigc.co.th/media/catalog/product/cache/2/small_image/200x/17f82f742ffe127f42dca9de82fb58b1/8/8/8852007912365_7.jpg" />
+                            <img alt="logo" className="logo" src="https://static.bigc.co.th/media/amlabel/23222120191817161514131211109876543210icon-_80x80.png"/>
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
-                            <p>ชาร์ป พัดลมตั้งโต๊ะ คละสี รุ่น PJ-TA163 ขนาด 16 นิ้ว คละสี</p>
-                            <p>฿788.00<span>/ชิ้น</span> </p>
+                            <p>สก๊อต ซุปไก่สกัด สูตรผสมถั่งเฉ้า 42 มล. แพ็ค 6</p>
+                            <p>฿185.00<span>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -370,7 +357,6 @@ const SuperDeals = () => {
                 </div>
             </Slider>
         </div>
-    )
-}
-
-export default SuperDeals
+  );
+};
+export default FirstTab;

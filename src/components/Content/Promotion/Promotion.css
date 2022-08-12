@@ -1,0 +1,36 @@
+.Tabs {
+    width: 1570px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-text .header-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.head-text {
+    font-size: 40px;
+    font-weight: bold;
+}
+.nav {
+    padding-top: 2rem;
+}
+.nav li {
+    margin: 0px 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.nav li:hover {
+    border-bottom: 5px solid red;
+}
+.card-img {
+    display: flex;
+}
+.card-img .logo {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: -60px;
+}
