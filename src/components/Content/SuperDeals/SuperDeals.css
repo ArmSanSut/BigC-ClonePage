@@ -37,6 +37,13 @@
     align-items: center;
     justify-content: center;
 }
+.card-details p {
+    font-weight: bold;
+    font-size: 16px;
+}
+.card-img img {
+    transform: translate(40px);
+}
 .card-wrapper {
     display: flex;
     flex-direction: column;
@@ -68,10 +75,14 @@ div .card-btn {
     color: white;
     font-size: 18px;
     font-weight: bold;
+    transform: translateX(15px);
 }
 .card-footer {
     margin: 1.5rem 0rem;
 }
 .slick-arrow .slick-prev {
     background-color: red;
+}
+div.card-img, div.card-details {
+    margin: 10px 0px;  
 }

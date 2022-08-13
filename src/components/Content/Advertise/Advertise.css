@@ -1,0 +1,25 @@
+.right-container {
+    margin: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left-container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.right-container img {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+}
+.left-container img {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+}
