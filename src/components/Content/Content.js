@@ -7,6 +7,8 @@ import PromotionMain from './Promotion/PromotionMain'
 import HotBrand from './HotBrand/HotBrand'
 import Advertise from './Advertise/Advertise'
 import PriceShock from './PriceShoock/PriceShock'
+import OnSale from './OnSale/OnSale'
+import AdvertiseFooter from './AdvertiseFooter/AdvertiseFooter'
 
 const Content = () => {
   return (
@@ -19,6 +21,8 @@ const Content = () => {
         <HotBrand />
         <Advertise />
         <PriceShock />
+        <OnSale />
+        <AdvertiseFooter />
 
     </div>
   )

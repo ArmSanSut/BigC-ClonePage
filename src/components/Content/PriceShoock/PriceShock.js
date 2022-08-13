@@ -47,6 +47,7 @@ const PriceShock = () => {
                     <img alt="arrow" src="https://www.bigc.co.th/_nuxt/img/arrow-right.ea4c886.svg" />
                 </div>
             </div>
+            <hr></hr>
             <Slider {...settings} className="content">
                 <div className="card-wrapper">
                     <div className="card">
