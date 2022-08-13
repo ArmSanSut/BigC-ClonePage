@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const FourthTab = () => {
     const settings = {
-        dots: true,
+        dots: false,
         button: true,
         infinite: true,
         speed: 500,
@@ -31,7 +31,7 @@ const FourthTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ตะวัน ข้าวเกรียบ รสกุ้งกรอบ 62 ก.</p>
-                            <p>฿20.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿20.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -64,7 +64,7 @@ const FourthTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ตะวัน ข้าวเกรียบ รสหมึกสามรส 62 ก</p>
-                            <p>฿20.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿20.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -97,7 +97,7 @@ const FourthTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ตะวัน ข้าวเกรียบ รสสาหร่ายทรงเครื่อง 62 ก.</p>
-                            <p>฿20.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿20.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -130,7 +130,7 @@ const FourthTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ชีโตส ข้าวโพดทอดกรอบ รสอเมริกันชีส 70 กรัม</p>
-                            <p>฿20.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿20.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -163,7 +163,7 @@ const FourthTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ทวิสตี้ ขนมอบกรอบ รสเอ็กซ์ตรีมชีส ขนาด 74 กรัม</p>
-                            <p>฿20.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿20.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -196,7 +196,7 @@ const FourthTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ทวิสตี้ ทไวซ์ ดาร์กช็อกโกแลต 30 ก.</p>
-                            <p>฿20.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿20.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -229,7 +229,7 @@ const FourthTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ตะวัน ข้าวเกรียบ รสลาบแซ่บ 62 ก.</p>
-                            <p>฿20.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿20.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -262,7 +262,7 @@ const FourthTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ตะวัน ข้าวเกรียบ รสต้นตำรับ 62 ก.</p>
-                            <p>฿18.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿18.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -295,7 +295,7 @@ const FourthTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ตะวัน ข้าวเกรียบ 2 in 1 รสส้มตำและไก่ย่าง 62 ก.</p>
-                            <p>฿18.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿18.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">

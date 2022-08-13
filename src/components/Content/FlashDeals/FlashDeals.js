@@ -7,7 +7,7 @@ import Timer from './Timer';
 
 const FlashDeals = () => {
     const settings = {
-        dots: true,
+        dots: false,
         button: true,
         infinite: true,
         speed: 500,
@@ -37,7 +37,7 @@ const FlashDeals = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>คาชิวา เตาย่างบาร์บีคิว 1300 วัตต์ รุ่น KW308</p>
-                            <p>฿499.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿499.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -69,7 +69,7 @@ const FlashDeals = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ทีซีแอล 4K UHD แอนดรอยด์ทีวี รุ่น 50J7000A ขนาด 50 นิ้ว</p>
-                            <p>฿11,990.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿11,990.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -101,7 +101,7 @@ const FlashDeals = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>โตชิบา เครื่องซักผ้า แบบ 2 ถัง รุ่น VH-H85MT ขนาด 7.5 กก.</p>
-                            <p> ฿3,790.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}> ฿3,790.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -133,7 +133,7 @@ const FlashDeals = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>โตชิบา เครื่องซักผ้าฝาบน รุ่น AW-UK1100HT ขนาด 10 กก.</p>
-                            <p>฿7,990.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿7,990.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -165,7 +165,7 @@ const FlashDeals = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ฟิลิปส์ เครื่องหนีบผม รุ่น HP8321</p>
-                            <p>฿890.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿890.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -197,7 +197,7 @@ const FlashDeals = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>อะโคนาติก แอลอีดี ดิจิตอลทีวี HD Ready รุ่น 32HD514AN ขนาด 32 นิ้ว สีดำ</p>
-                            <p>฿3,890.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿3,890.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -229,7 +229,7 @@ const FlashDeals = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ชาร์ป หม้อหุงข้าวอุ่นทิพย์ รุ่น KS19E ขนาด 1.8 ล.</p>
-                            <p>฿849.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿849.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -261,7 +261,7 @@ const FlashDeals = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ชาร์ป กระติกน้ำร้อน รุ่น KP-B16S ขนาด 1.6 ลิตร คละแบบ</p>
-                            <p>฿779.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿779.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -293,7 +293,7 @@ const FlashDeals = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ราวตากผ้า ทรงเอ คละสี ขนาด 41 x 88 x 130 ซม</p>
-                            <p>฿239.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿239.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -325,7 +325,7 @@ const FlashDeals = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>มิตซูบิชิ ตู้เย็น 2 ประตู รุ่น MR-FVB22S ขนาด 7.3 คิว คละสี</p>
-                            <p>฿6,990.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿6,990.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">

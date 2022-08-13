@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const FifthTab = () => {
     const settings = {
-        dots: true,
+        dots: false,
         button: true,
         infinite: true,
         speed: 500,
@@ -31,7 +31,7 @@ const FifthTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>เนสกาแฟ กาแฟกระป๋องสำเร็จรูป เอสเปรสโซ โรสต์ 180 มล. แพ็ค 6</p>
-                            <p>฿79.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿79.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -64,7 +64,7 @@ const FifthTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>แบรนด์ ซุปไก่สกัด สูตรต้นตำรับ 42 มล. แพ็ค 12 ขวด</p>
-                            <p>฿444.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿444.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -97,7 +97,7 @@ const FifthTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>แบรนด์ ซุปไก่สกัด สูตรต้นตำรับ 70 มล. แพ็ค 12</p>
-                            <p>฿680.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿680.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -130,7 +130,7 @@ const FifthTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ไวตามิลค์ นมถั่วเหลือง ขนาด 300 มล. แพ็ค 6</p>
-                            <p>฿89.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿89.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -163,7 +163,7 @@ const FifthTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ดัชมิลล์ 4 อิน 1 ไมโคร แอคทีฟ โยเกิร์ตพร้อมดื่มยูเอชที รสมิกซ์เบอร์รี่ 180 มล. แพ็ค 4</p>
-                            <p>฿37.00 <span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿37.00 <span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -196,7 +196,7 @@ const FifthTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ดัชมิลล์ ดีน่า นมถั่วเหลือง งาดำ 2 เท่าน้ำตาลน้อย 180 มล. แพ็ค 4</p>
-                            <p>฿37.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿37.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -229,7 +229,7 @@ const FifthTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ดัชมิลล์ ดีน่า นมถั่วเหลือง งาดำ 180 มิลลิลิตร แพ็ค 4</p>
-                            <p>฿37.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿37.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -262,7 +262,7 @@ const FifthTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ดัชมิลล์ ดีน่า น้ำนมถั่วเหลืองยูเอชที สูตรผสมงาดำ 2 เท่า 230 มล. แพ็ค 3</p>
-                            <p>฿36.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿36.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -295,7 +295,7 @@ const FifthTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ไมโล แอคทิฟ-โก นมยูเอชที รสช็อกโกแลตมอลต์ 180 มล. แพ็ค 4</p>
-                            <p>฿45.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿45.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -328,7 +328,7 @@ const FifthTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>แบรนด์ เบอร์รี่พลัส บ็อกบิลเบอร์รี่ 42 มล. แพ็ค 12</p>
-                            <p>฿420.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿420.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">

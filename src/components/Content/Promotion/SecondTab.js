@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const SecondTab = () => {
     const settings = {
-        dots: true,
+        dots: false,
         button: true,
         infinite: true,
         speed: 500,
@@ -31,7 +31,7 @@ const SecondTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>โพรเทคส์ ครีมอาบน้ำ สูตรสปอร์ต 450 มล.</p>
-                            <p>฿189.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿189.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -64,7 +64,7 @@ const SecondTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>โชกุบุสซึ โมโนกาตาริ ครีมอาบน้ำ สีชมพู ชนิดเติม 500 มล.</p>
-                            <p>฿98.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿98.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -97,7 +97,7 @@ const SecondTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>โชกุบุสซึ โมโนกาตาริ ครีมอาบน้ำ กิงโกะ สีเขียว ชนิดเติม 500 มล.</p>
-                            <p> ฿98.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}> ฿98.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -130,7 +130,7 @@ const SecondTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>คอลเกต พลักซ์ น้ำยาบ้วนปาก สูตรเปปเปอร์มินท์ เฟรช 500 มล.</p>
-                            <p>฿145.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿145.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -163,7 +163,7 @@ const SecondTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>คอลเกต พลักซ์ น้ำยาบ้วนปาก สูตรฟรุ้ตตี้ 500 มล.</p>
-                            <p>฿145.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿145.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -196,7 +196,7 @@ const SecondTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ดีนี่ นิวบอร์น ผลิตภัณฑ์ซักผ้าเด็ก กลิ่นไลฟ์ลี่สกาย แบบถุงเติม สีฟ้า 600 มล.</p>
-                            <p>฿96.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿96.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -229,7 +229,7 @@ const SecondTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>สก๊อตช์-ไบรต์ ใยขัดด้ามจับหัวเจ็ท สีเขียว</p>
-                            <p>฿59.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿59.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -262,7 +262,7 @@ const SecondTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>คอลเกต พลักซ์ น้ำยาบ้วนปาก สูตรเกลือ สมุนไพร 500 มล.</p>
-                            <p>฿145.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿145.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -295,7 +295,7 @@ const SecondTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>มองต์เฟลอ น้ำแร่ 1 ล. แพ็ค 6</p>
-                            <p>฿95.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿95.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -328,7 +328,7 @@ const SecondTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>โพรเทคส์ ครีมอาบน้ำ สูตรเฟรช 450 มล.</p>
-                            <p>฿189.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿189.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">

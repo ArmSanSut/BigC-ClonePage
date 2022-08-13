@@ -27,7 +27,7 @@ const SuperDeals = () => {
         );
       }
     const settings = {
-        dots: true,
+        dots: false,
         button: true,
         infinite: true,
         speed: 500,

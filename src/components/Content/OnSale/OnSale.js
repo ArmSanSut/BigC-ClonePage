@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const OnSale = () => {
     const settings = {
-        dots: true,
+        dots: false,
         button: true,
         infinite: true,
         speed: 500,
@@ -32,7 +32,7 @@ const OnSale = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>โทมิ น้ำยาทำความสะอาดพื้น 1 กลิ่นสปริงซากุระ 5200 มล.</p>
-                            <p >฿178.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿178.00<span>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -65,7 +65,7 @@ const OnSale = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>มาบุญครอง ข้าวขาวหอมมะลิ 100% ถุงแดง 15 กก.</p>
-                            <p>฿595.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿595.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -98,7 +98,7 @@ const OnSale = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>เทสโต มันฝรั่งทอดกรอบแผ่นหยัก รสมันฝรั่งแท้ 11 ก. แพ็ค 12</p>
-                            <p>฿48.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿48.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -131,7 +131,7 @@ const OnSale = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>แพนทีน แชมพู สูตรแฮร์ฟอล คอนโทรล 410 มล.</p>
-                            <p>฿129.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿129.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -164,7 +164,7 @@ const OnSale = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>โปร บลูพลัส ผงซักฟอก สูตรมาตรฐาน 4500 ก.</p>
-                            <p>฿179.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿179.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -197,7 +197,7 @@ const OnSale = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>คอมฟอร์ท เพียว น้ำยาปรับผ้านุ่ม สูตรเข้มข้นพิเศษ 1300 มล.</p>
-                            <p>฿149.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿149.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -230,7 +230,7 @@ const OnSale = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>มอคโคน่า กาแฟสำเร็จรูป 3 อิน 1 ทรีโอ เอสเปรสโซ่ 18 ก. แพ็ค 100</p>
-                            <p>฿332.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿332.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -263,7 +263,7 @@ const OnSale = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ทิวลี่ ทวิน จัมโบ้ เวเฟอร์เคลือบช็อกโกแลต 35 ก. แพ็ค 12</p>
-                            <p>฿48.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿48.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -296,7 +296,7 @@ const OnSale = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>โฟร์โมสต์ โอเมก้า 369 ผลิตภัณฑ์นมยูเอชที รสช็อกโกแลต 180 มล. แพ็ค 36</p>
-                            <p>฿309.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿309.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -329,7 +329,7 @@ const OnSale = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>วิสกัส อาหารแมว สำหรับแมวโต รสปลาทู 7 กก.</p>
-                            <p>฿529.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿529.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">

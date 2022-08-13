@@ -27,7 +27,7 @@ const PriceShock = () => {
         );
       }
     const settings = {
-        dots: true,
+        dots: false,
         button: true,
         infinite: true,
         speed: 500,
@@ -57,7 +57,7 @@ const PriceShock = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>บรีส เอกเซล โกลด์ ผงซักฟอก 2500 ก.</p>
-                            <p>฿239.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿239.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -90,7 +90,7 @@ const PriceShock = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>เทสโต มันฝรั่งทอดกรอบแผ่นหยัก รสปูผัดผงกะหรี่ 11 กรัม แพ็ค 12</p>
-                            <p>฿48.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿48.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -123,7 +123,7 @@ const PriceShock = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ดาวน์นี่ น้ำยาปรับผ้านุ่ม สูตรเข้มข้นพิเศษ กลิ่นหอมสดชื่นยามเช้า ถุงเติม 1.35 ล.</p>
-                            <p> ฿119.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}> ฿119.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -156,7 +156,7 @@ const PriceShock = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ดัชมิลล์ ดีน่า นมถั่วเหลือง งาดำ 2 เท่าน้ำตาลน้อย 180 มล. แพ็ค 4</p>
-                            <p>฿37.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿37.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -189,7 +189,7 @@ const PriceShock = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ดัชมิลล์ ดีน่า นมถั่วเหลือง งาดำ 180 มิลลิลิตร แพ็ค 4</p>
-                            <p>฿37.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿37.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -222,7 +222,7 @@ const PriceShock = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>มอคโคน่า ซีเล็ค กาแฟสำเร็จรูป ชนิดเติม 360 ก.</p>
-                            <p>฿216.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿216.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -255,7 +255,7 @@ const PriceShock = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>เบอร์ดี้ 3 อิน 1 กาแฟ โรบัสต้า ขนาด 418.50 ก. แพ็ค 27</p>
-                            <p>฿89.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿89.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -288,7 +288,7 @@ const PriceShock = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>เซอร์เทนตี้ ผ้าอ้อมผู้ใหญ่ แบบเทป ขนาด L จำนวน 24 ชิ้น</p>
-                            <p>฿399.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿399.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -321,7 +321,7 @@ const PriceShock = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ไฮยีน เอ็กซ์เพิร์ท แคร์ ผลิตภัณฑ์ปรับผ้านุ่ม สูตรเข้มข้นพิเศษ กลิ่นมิลค์กี้ ทัช 540 มล.</p>
-                            <p>฿49.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿49.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -354,7 +354,7 @@ const PriceShock = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>มามี่โพโค ผ้านุ่มชุ่มชื่น เซฟแอนด์แคร์ 80 ชิ้น แพ็ค 3</p>
-                            <p>฿199.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿199.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">

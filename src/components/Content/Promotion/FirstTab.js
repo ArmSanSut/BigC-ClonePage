@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const FirstTab = () => {
     const settings = {
-        dots: true,
+        dots: false,
         button: true,
         infinite: true,
         speed: 500,
@@ -33,7 +33,7 @@ const FirstTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>เฮลซ์บลูบอย น้ำหวานเข้มข้น กลิ่นครีมโซดา 710 มิลลิลิตร</p>
-                            <p>฿51.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿51.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -66,7 +66,7 @@ const FirstTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ตราหมี โกลด์ ผลิตภัณฑ์นมสเตอริไลส์ไขมันต่ำผสมชาขาว 140 มล. แพ็ค 4</p>
-                            <p>฿54.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿54.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -99,7 +99,7 @@ const FirstTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ตราหมี โกลด์ ผลิตภัณฑ์นมสเตอริไลส์ไขมันต่ำผสมมอลต์สกัด 140 มล. แพ็ค 4</p>
-                            <p>฿54.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿54.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -132,7 +132,7 @@ const FirstTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ชาวเกาะ กะทิสำเร็จรูป 250 มล.</p>
-                            <p>฿23.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿23.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -165,7 +165,7 @@ const FirstTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>แลคตาซอย นมถั่วเหลือง รสหวาน 125 มล. แพ็ค 6</p>
-                            <p>฿27.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿27.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -198,7 +198,7 @@ const FirstTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>เป๊ปซี่ แม็กซ์ เครื่องดื่มอัดลม ไม่มีน้ำตาล 1.45 ล.</p>
-                            <p>฿26.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿26.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -231,7 +231,7 @@ const FirstTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>ชเวปส์ น้ำอัดลมมะนาวโซดา 325 มล. แพ็ค 6</p>
-                            <p>฿80.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿80.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -264,7 +264,7 @@ const FirstTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>เพอร์ร่า น้ำแร่ธรรมชาติ 100% 600 มล. แพ็ค 12</p>
-                            <p>฿82.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿82.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -297,7 +297,7 @@ const FirstTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>สก๊อต ซุปไก่สกัด สูตร 100% 42 มล. แพ็ค 6</p>
-                            <p>฿185.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿185.00<span style={{color : 'black', fontSize : '16px'}}>/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
@@ -330,7 +330,7 @@ const FirstTab = () => {
                         </div>
                         <div className="card-details" style={{ width: '200px' }}>
                             <p>สก๊อต ซุปไก่สกัด สูตรผสมถั่งเฉ้า 42 มล. แพ็ค 6</p>
-                            <p>฿185.00<span>/ชิ้น</span> </p>
+                            <p style={{color :'red' ,fontSize : '25px', fontWeight : 'bold'}}>฿185.00<span style={{color : 'black', fontSize : '16px'}} >/ชิ้น</span> </p>
                         </div>
                     </div>
                     <div className="card-btn">
