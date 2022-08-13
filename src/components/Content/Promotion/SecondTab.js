@@ -18,7 +18,7 @@ const SecondTab = () => {
     <div style={{ width: '1570px', marginLeft: 'auto', marginRight: 'auto', marginTop:'50px' }}>
             <div className="header-text">
                 <div className="header-right">
-                    <a href='https://www.bigc.co.th/dailydeal' className='link'><p className='text'>ดูสินค้าทั้งหมด</p></a>
+                    <a href='https://www.bigc.co.th/shoponline/promotion/buy1-get1-free' className='link'><p className='text'>ดูสินค้าทั้งหมด</p></a>
                     <img alt="arrow" src="https://www.bigc.co.th/_nuxt/img/arrow-right.ea4c886.svg" />
                 </div>
             </div>

@@ -43,7 +43,7 @@ const SuperDeals = () => {
             <div className="header">
                 <h2>Super Deals ดีลเด็ด ราคาโดน</h2>
                 <div className="header-right">
-                    <a href='https://www.bigc.co.th/dailydeal' className="link"><p className="text">ดูสินค้าทั้งหมด</p></a>
+                    <a href='https://www.bigc.co.th/promotion/super-deal-set2-2022.html' className="link"><p className="text">ดูสินค้าทั้งหมด</p></a>
                     <img alt="arrow" src="https://www.bigc.co.th/_nuxt/img/arrow-right.ea4c886.svg" />
                 </div>
             </div>
